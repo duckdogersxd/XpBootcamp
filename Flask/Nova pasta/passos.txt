@@ -1,0 +1,51 @@
+Cria ambiente Virtual python -m venv ./env
+
+Ativar env\Scripts\activate
+
+Instalação do flash pip install flask
+
+Verificação da versão do flask instalada python -m flask --version
+
+Guardar as dependencias pip freeze > requirements.txt
+-----------------------------------------------------------------------
+Criação  de arquivo do servidor app.python
+
+Criação d erota '/' index
+
+set FLASK_APP = app.python
+
+rodar servidor flask run
+
+---------------------------------------------------------
+Criar um doc HTML usar como tempalte
+
+renderizar tempalte
+
+tempaletes ou rotas dinamicas
+
+-----------------------------------------------------------
+
+Instalar uma dependencia (pip install flask-wtf)
+
+Atualizar o requeriments.txt
+
+Importou as dependencias
+
+criou uma classe de formulario
+
+renderizou o formulario
+
+devolveu dados recebidos pelo formulario no tempalete
+
+refactor do formulario 
+
+Criação da pasta model e o User
+criacao do config.py
+pip install Flask-Migrate  
+pip install Flask-sqlalchemy 
+
+
+flask db init
+flask db migrate
+flask db upgrade
+
