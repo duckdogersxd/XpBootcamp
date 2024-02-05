@@ -1,0 +1,45 @@
+Verificar Versão do Python python --version
+
+Criar um ambiente virtual (python -m venv ./env)
+
+Ativar ambiente virtual .venv\Scripts\activate
+
+Instalação do Django (pip install django)
+
+Verificar versão do Django
+
+Guardar suas dependencias (pip freeze > requeriments.txt) (pip install -r requeriments.txt)
+
+Criar projeto django-admin startproject Mod3
+
+Fazer as configuraçãoes (arquivos estaticos e templastes)
+
+Criação de um aplicativo dentro do projeto django python manage.py startapp app1
+
+configuração das urls projeto1 e app1
+
+criação de uma view(index)
+
+criacao da pasta template
+
+python manage.py makemigrations
+python manage.py migration
+
+python manage.py shell
+create a superuser
+
+registrar models no admin.py(app1)
+
+criar template 
+
+Criar formulário
+
+Testar formulário
+
+jinja engine de templates  -> código no template
+
+bootstrap (css pré pronto)
+
+criação de páginas dinamicas com método POST 
+
+criação de páginas dinamicas com query params
